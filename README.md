@@ -1,23 +1,25 @@
 # Kurumin03.github.io
 
-## projects
-### project 1
-- description
-- links
+## Introduction
+Welcome to my portfolio! I'm Abdul Muhyi Bin Faidzuli, a Robotics Major at Ritsumeikan University.
 
-### project 2
-- description
-- links
+## Projects
+### Project 1
+- Description
+- Links
+
+### Project 2
+- Description
+- Links
   
-### project 3
-- description
-- links
+### Project 3
+- Description
+- Links
 
-# education
-- ritsumeikan university
-- kuala lumpur university
+## Education
+- Ritsumeikan University
+- Kuala Lumpur University
 - SMK Agama Kedah
   
-# intern
-- Nichias fgs sdn. bhd.
-
+## Intern
+- Nichias FGS Sdn. Bhd.
