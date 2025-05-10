@@ -1,17 +1,17 @@
 ---
 layout: fullwidth
 title: Project 3
-permalink: /projects/project1
+permalink: /projects/project3
 ---
 
 {% include return.html %}
 
 <section class="project-details">
-  <h1>Project 1: Autonomous Navigation Robot</h1>
+  <h1>Project 3: Real-Time Obstacle Avoidance</h1>
   <p>
-    This project involved developing an autonomous robot capable of navigating complex environments using sensor data and path-planning algorithms.
+    Developed a ROS node for dynamic obstacle detection and avoidance
+    using depth sensors and reactive planning techniques.
   </p>
-  <!-- Add more project-specific content here -->
 </section>
 
 <footer class="page-return-footer">
