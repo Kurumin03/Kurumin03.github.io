@@ -12,5 +12,5 @@ permalink: /education/smk-agama-kedah/
 - **Activities**: Robotics Club President
 
 <footer class="page-return-footer">
-  <a href="/" class="return-btn">Return to Home</a>
+  <a href="/projects/project1" class="return-btn">← Previous</a>
 </footer>
