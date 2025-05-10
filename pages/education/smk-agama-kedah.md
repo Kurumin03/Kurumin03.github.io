@@ -1,7 +1,6 @@
 ---
 layout: fullwidth
 title: SMK Agama Kedah
-permalink: /education/smk-agama-kedah
 ---
 
 {% include return.html %}
