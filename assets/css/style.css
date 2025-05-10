@@ -168,14 +168,16 @@ body {
   .hero-text {
     max-width: 100%;
   }
-  .site-footer {
-  text-align: center;
-  padding: 2rem 0;
+.site-footer {
   background: rgba(255,255,255,0.9);
+  padding: 2rem 0;
+}
+.site-footer .footer-inner {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 .footer-btn {
-  display: inline-block;
-  margin: 0 1rem;
   padding: 0.75rem 1.5rem;
   border: 2px solid #333;
   border-radius: 4px;
@@ -187,5 +189,6 @@ body {
   background: #333;
   color: #fff;
 }
+
 
 }
