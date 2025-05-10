@@ -82,3 +82,22 @@
     justify-content: center;
   }
 }
+.page-return, .page-return-footer {
+  padding: 1rem 2rem;
+}
+
+.return-btn {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  border: 2px solid #333;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.return-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
