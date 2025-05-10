@@ -1,107 +1,98 @@
-/* ---- Full‐Width Layout ---- */
-.layout‐fullwidth {
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-}
-
-/* ---- Background Image ---- */
+/* Background */
 body {
-  background: url('https://images.unsplash.com/photo-robotics?auto=format&fit=crop&w=2000') no-repeat center/cover;
+  background: url('https://images.unsplash.com/photo-1581091215367-efb58e45e1b5?auto=format&fit=crop&w=2000')
+              no-repeat center/cover;
   color: #222;
   font-family: 'Segoe UI', sans-serif;
+  margin: 0;
 }
 
-/* ---- Top Nav ---- */
+/* Top Nav (only name on home) */
 .topnav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  background: rgba(255,255,255,0.9);
   padding: 1rem 2rem;
-  background: rgba(255,255,255,0.85);
   position: fixed;
-  width: 100%;
-  z-index: 1000;
+  top: 0; width: 100%; z-index: 1000;
+}
+.right-header .cursive {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1.5rem;
 }
 
-.topnav .nav-btn {
-  margin-right: 1rem;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  color: #333;
-  border: 2px solid transparent;
-  border-radius: 4px;
-  transition: background 0.2s, border-color 0.2s;
-}
-.topnav .nav-btn:hover,
-.topnav .nav-btn.active {
-  background: #fff;
-  border-color: #888;
-}
-
-.left-nav a:last-child { margin-right: 0; }
-
-.right-header {
-  display: flex;
-  align-items: center;
-}
-.right-header .name {
-  font-weight: bold;
-  margin-right: 1rem;
-}
-
-/* ---- Hero ---- */
+/* Hero */
 .hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8rem 2rem 2rem; /* push below fixed nav */
+  padding: 6rem 2rem 2rem; /* push below nav */
 }
-.hero-text {
-  max-width: 50%;
-}
-.hero-text h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-.hero-text p {
-  font-size: 1.25rem;
-  line-height: 1.6;
-}
+.hero-text { max-width: 50%; }
+.hero-text h1 { font-size: 3rem; margin: 0 0 1rem; }
+.hero-text p  { font-size: 1.2rem; }
 
-/* Half‐circle image on right */
+/* Half-circle portrait */
 .hero-image {
-  width: 50%;
-  overflow: hidden;
-  position: relative;
+  width: 50%; overflow: hidden; position: relative;
 }
 .hero-image img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 100%;
+  width: 150%;            /* enlarge and crop */
   height: auto;
+  position: absolute;
+  right: 0; bottom: 0;
   clip-path: ellipse(100% 50% at 100% 100%);
   box-shadow: -4px 0 12px rgba(0,0,0,0.2);
 }
 
-/* ---- Return Button ---- */
-.page-return {
-  padding: 1rem 2rem;
+/* Round nav buttons */
+.circle-nav {
+  display: flex; justify-content: center;
+  gap: 1.5rem; margin: 2rem 0;
 }
-.return-btn {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  border: 2px solid #333;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  transition: background-color 0.3s, color 0.3s;
+.circle-btn {
+  width: 100px; height: 100px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: bold; text-decoration: none; color: #222;
+  background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
-.return-btn:hover {
-  text-decoration: underline;
+.circle-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
-.page-return-footer {
-  text-align: center;
-  margin: 4rem 0 2rem;
+/* Content panels (About Me) */
+.content-panel {
+  max-width: 700px; margin: 0 auto 3rem;
+  background: rgba(255,255,255,0.9);
+  padding: 1.5rem; border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: none;
+}
+.content-panel.open { display: block; }
+
+/* Return buttons */
+.page-return, .page-return-footer { padding: 1rem 2rem; }
+.return-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 2px solid #333;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+.return-btn:hover {
+  background: #333;
+  color: #fff;
+}
+.page-return-footer { text-align: center; margin-top: 4rem; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero { flex-direction: column; text-align: center; }
+  .hero-image { width: 100%; }
+  .hero-text { max-width: 100%; }
 }
