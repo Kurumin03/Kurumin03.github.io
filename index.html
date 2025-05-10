@@ -4,47 +4,26 @@ title: Home
 permalink: /
 ---
 
-<nav class="tab-bar">
-  <button class="tab active" data-panel="intro">Introduction</button>
-  <button class="tab" data-panel="projects">Projects</button>
-  <button class="tab" data-panel="education">Education</button>
-  <button class="tab" data-panel="intern">Intern</button>
-</nav>
+<div class="hero">
+  <!-- Left: Big circular photo -->
+  <div class="hero-photo">
+    <img src="{{ '/assets/A7M00937.JPG' | relative_url }}" alt="Abdul Muhyi Bin Faidzuli">
+  </div>
 
-<div class="panels">
-  <!-- Intro is always visible -->
-  <aside id="panel-intro" class="panel intro-panel open">
-    <h2>Abdul Muhyi Bin Faidzuli</h2>
-    <img src="{{ '/assets/A7M00937.JPG' | relative_url }}" alt="Your photo">
-    <p>Ritsumeikan University | Robotics Major</p>
-    <a href="https://github.com/Kurumin03" target="_blank">View My GitHub Profile</a>
-  </aside>
+  <!-- Right: Name, subtitle, bio + circle buttons -->
+  <div class="hero-content">
+    <h1>Abdul Muhyi Bin Faidzuli</h1>
+    <h2>Robotics Major at Ritsumeikan University</h2>
+    <p>
+      Welcome! I’m a robotics major with a passion for inverse kinematics and path-planning.  
+      Feel free to explore my work, education, and internship experience.
+    </p>
 
-  <!-- Hidden by default -->
-  <section id="panel-projects" class="panel content-panel">
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="/projects/project1">Project 1</a></li>
-      <li><a href="/projects/project2">Project 2</a></li>
-      <li><a href="/projects/project3">Project 3</a></li>
-    </ul>
-  </section>
-
-  <section id="panel-education" class="panel content-panel">
-    <h2>Education</h2>
-    <ul>
-      <li>Ritsumeikan University</li>
-      <li>Kuala Lumpur University</li>
-      <li>SMK Agama Kedah</li>
-    </ul>
-  </section>
-
-  <section id="panel-intern" class="panel content-panel">
-    <h2>Intern</h2>
-    <ul>
-      <li>Nichias FGS Sdn. Bhd.</li>
-    </ul>
-  </section>
+    <div class="circle-nav">
+      <a href="/projects/project1" class="circle-btn">Projects</a>
+      <a href="/education"          class="circle-btn">Education</a>
+      <a href="/intern"             class="circle-btn">Intern</a>
+      <a href="/introduction"       class="circle-btn">Introduction</a>
+    </div>
+  </div>
 </div>
-
-<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
