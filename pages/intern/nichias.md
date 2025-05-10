@@ -1,7 +1,6 @@
 ---
 layout: fullwidth
 title: Nichias FGS Sdn. Bhd.
-permalink: /intern/nichias
 ---
 
 {% include return.html %}
