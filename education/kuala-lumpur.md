@@ -14,5 +14,5 @@ permalink: /education/kuala-lumpur/
 <footer class="page-return-footer">
   <a href="/education/ritsumeikan" class="return-btn">← Previous</a>
   <a href="/"                 class="return-btn">Return to Home</a>
-  <a href="/projects/smk-agama-kedah" class="return-btn">Next →</a>
+  <a href="/education/smk-agama-kedah" class="return-btn">Next →</a>
 </footer>
