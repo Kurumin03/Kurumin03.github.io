@@ -16,7 +16,7 @@ permalink: /projects/project1
 </section>
 
 <footer class="page-return-footer">
-  <a href="/projects/project2" class="return-btn">Next →</a>
   <a href="/"               class="return-btn">Return to Home</a>
+  <a href="/projects/project2" class="return-btn">Next →</a>
 </footer>
 
