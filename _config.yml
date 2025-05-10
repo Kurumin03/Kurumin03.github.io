@@ -1,5 +1,16 @@
+# _config.yml
 title: Abdul Muhyi Bin Faidzuli
-logo: docs/assets/A7M00937.JPG
-description: Ritsumeikan University | Robotics Major
-#show_download: true
-theme: jekyll-theme-minimal
+email: youremail@example.com
+description: ritsumeikan university | robotics major
+baseurl: ""       # leave empty for username.github.io
+url: "https://Kurumin03.github.io"
+
+# Tell GitHub Pages to pull portfolYOU as a remote theme
+remote_theme: yousinix/portfolYOU@v2.3.0      # you can pin to a specific tag:contentReference[oaicite:0]{index=0}
+plugins:
+  - jekyll-remote-theme                      # required to enable remote_theme:contentReference[oaicite:1]{index=1}
+
+# Optional: control where external links open
+external_new_tab: true
+
+# ... your other settings (markdown, collections, etc.) …
