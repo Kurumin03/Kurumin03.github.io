@@ -1,16 +1,29 @@
-# _config.yml
+# Site settings
 title: Abdul Muhyi Bin Faidzuli
 email: youremail@example.com
 description: ritsumeikan university | robotics major
-baseurl: ""       # leave empty for username.github.io
+baseurl: ""
 url: "https://Kurumin03.github.io"
 
-# Tell GitHub Pages to pull portfolYOU as a remote theme
-remote_theme: yousinix/portfolYOU@v2.3.0      # you can pin to a specific tag:contentReference[oaicite:0]{index=0}
+# Remote theme setup
+remote_theme: yousinix/portfolYOU@v2.3.0
 plugins:
-  - jekyll-remote-theme                      # required to enable remote_theme:contentReference[oaicite:1]{index=1}
+  - jekyll-remote-theme
 
-# Optional: control where external links open
+# Navigation weight (optional)
+collections:
+  projects:
+    output: true
+  timeline:
+    output: true
+
+# Markdown & permalinks
+markdown: kramdown
+permalink: pretty
+
+# Data files to include
+include:
+  - _data
+
+# External links target
 external_new_tab: true
-
-# ... your other settings (markdown, collections, etc.) …
