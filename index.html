@@ -1,29 +1,33 @@
 ---
-layout: default
-title: Home
+layout: fullwidth
+title: About Me
 permalink: /
 ---
 
-<div class="hero">
-  <!-- Left: Big circular photo -->
-  <div class="hero-photo">
-    <img src="{{ '/assets/A7M00937.JPG' | relative_url }}" alt="Abdul Muhyi Bin Faidzuli">
+<!-- Top Nav -->
+<header class="topnav">
+  <nav class="left-nav">
+    <a href="/projects/project1" class="nav-btn">Projects</a>
+    <a href="/education"          class="nav-btn">Education</a>
+    <a href="/intern"             class="nav-btn">Intern</a>
+    <a href="/introduction"       class="nav-btn">Introduction</a>
+  </nav>
+  <div class="right-header">
+    <span class="name">ABDUL MUHYI</span>
+    <a href="/" class="nav-btn active">About Me</a>
   </div>
+</header>
 
-  <!-- Right: Name, subtitle, bio + circle buttons -->
-  <div class="hero-content">
-    <h1>Abdul Muhyi Bin Faidzuli</h1>
-    <h2>Robotics Major at Ritsumeikan University</h2>
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Hi, I’m Abdul Muhyi</h1>
     <p>
-      Welcome! I’m a robotics major with a passion for inverse kinematics and path-planning.  
-      Feel free to explore my work, education, and internship experience.
+      Robotics major at Ritsumeikan University, passionate about inverse kinematics,
+      path planning, and real‐world automation.
     </p>
-
-    <div class="circle-nav">
-      <a href="/projects/project1" class="circle-btn">Projects</a>
-      <a href="/education"          class="circle-btn">Education</a>
-      <a href="/intern"             class="circle-btn">Intern</a>
-      <a href="/introduction"       class="circle-btn">Introduction</a>
-    </div>
   </div>
-</div>
+  <div class="hero-image">
+    <img src="{{ '/assets/A7M00937.JPG' | relative_url }}" alt="Abdul Muhyi">
+  </div>
+</section>
