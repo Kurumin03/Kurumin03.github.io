@@ -4,22 +4,26 @@ title: Home
 permalink: /
 ---
 
+<!-- Top Header -->
 <header class="topnav">
-  <div class="left-nav">
-    <!-- empty, we only need right side for home -->
-  </div>
+  <nav class="left-nav">
+    <a href="#" data-panel="projects" class="nav-btn">Projects</a>
+    <a href="#" data-panel="education" class="nav-btn">Education</a>
+    <a href="#" data-panel="intern" class="nav-btn">Intern</a>
+    <a href="#" data-panel="about" class="nav-btn">Introduction</a>
+  </nav>
   <div class="right-header">
-    <span class="name"> <span class="cursive">ABDUL MUHYI</span></span>
+    <span class="cursive name">ABDUL MUHYYI</span>
   </div>
 </header>
 
+<!-- Hero Section -->
 <section class="hero">
   <div class="hero-text">
     <h1>Welcome!</h1>
     <p>
       Robotics major at Ritsumeikan University with a passion for inverse kinematics,
-      path planning, and real-world automation.  
-      Explore my work and background below.
+      path planning, and real-world automation.
     </p>
   </div>
   <div class="hero-image">
@@ -27,22 +31,47 @@ permalink: /
   </div>
 </section>
 
-<!-- Round nav buttons -->
+<!-- Circle Nav -->
 <div class="circle-nav">
-  <a href="/projects/project1" class="circle-btn">Projects</a>
-  <a href="/education"          class="circle-btn">Education</a>
-  <a href="/intern"             class="circle-btn">Intern</a>
-  <button id="aboutBtn"         class="circle-btn">About Me</button>
+  <a href="#" data-panel="projects" class="circle-btn">Projects</a>
+  <a href="#" data-panel="education" class="circle-btn">Education</a>
+  <a href="#" data-panel="intern" class="circle-btn">Intern</a>
+  <a href="#" data-panel="about" class="circle-btn">About Me</a>
 </div>
 
-<!-- Hidden About Me panel -->
-<section id="aboutMePanel" class="content-panel">
+<!-- Panels -->
+<section id="panel-about" class="content-panel">
   <h2>About Me</h2>
   <p>
     I’m Abdul Muhyi Bin Faidzuli, a Robotics major at Ritsumeikan University.
-    My focus areas include 7-DOF manipulator inverse kinematics, A* planning,
+    I focus on 7-DOF manipulator inverse kinematics, A* planning,
     and deploying autonomous solutions.
   </p>
+</section>
+
+<section id="panel-projects" class="content-panel">
+  <h2>Projects</h2>
+  <ul>
+    <li><a href="/projects/project1">Project 1: Autonomous Navigation Robot</a></li>
+    <li><a href="/projects/project2">Project 2: 7-DOF Manipulator IK</a></li>
+    <li><a href="/projects/project3">Project 3: Real-Time Obstacle Avoidance</a></li>
+  </ul>
+</section>
+
+<section id="panel-education" class="content-panel">
+  <h2>Education</h2>
+  <ul>
+    <li>Ritsumeikan University — Robotics Major</li>
+    <li>Kuala Lumpur University</li>
+    <li>SMK Agama Kedah</li>
+  </ul>
+</section>
+
+<section id="panel-intern" class="content-panel">
+  <h2>Intern</h2>
+  <ul>
+    <li>Nichias FGS Sdn. Bhd. — Automation Intern</li>
+  </ul>
 </section>
 
 <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
