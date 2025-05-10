@@ -26,10 +26,12 @@ header {
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s;
+    border: 1px solid transparent; /* Add border for better visibility */
 }
 
 .nav-buttons a:hover {
     background-color: #555;
+    border: 1px solid white; /* Highlight border on hover */
 }
 
 section {
