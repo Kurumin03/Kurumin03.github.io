@@ -1,32 +1,25 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const navButtons = document.querySelectorAll('.nav-list button');
+  const tabs = document.querySelectorAll('.tab-bar .tab');
   const panels = document.querySelectorAll('.panel');
 
-  function closeAll() {
-    // hide panels & deactivate buttons
-    panels.forEach(p => p.classList.remove('open'));
-    navButtons.forEach(b => b.classList.remove('active'));
-  }
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const targetId = 'panel-' + tab.dataset.panel;
 
-  navButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const target = btn.dataset.panel;           // e.g. "intro"
-      const panel = document.getElementById('panel-' + target);
+      // Activate this tab, deactivate others
+      tabs.forEach(t => t.classList.toggle('active', t === tab));
 
-      // if this panel is already open, just close it
-      if (panel.classList.contains('open')) {
-        closeAll();
-      } else {
-        closeAll();
-        // open the right one
-        panel.classList.add('open');
-        btn.classList.add('active');
-      }
+      // Show intro only if 'intro' clicked; hide otherwise
+      panels.forEach(panel => {
+        if (panel.id === targetId) {
+          panel.classList.add('open');
+        } else if (panel.classList.contains('intro-panel')) {
+          // keep intro open only on its tab
+          panel.classList.toggle('open', tab.dataset.panel === 'intro');
+        } else {
+          panel.classList.remove('open');
+        }
+      });
     });
-  });
-
-  // wire up all “close” buttons inside panels
-  document.querySelectorAll('.panel .close-btn').forEach(x => {
-    x.addEventListener('click', () => closeAll());
   });
 });
