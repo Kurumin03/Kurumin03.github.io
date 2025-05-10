@@ -1,7 +1,6 @@
 ---
 layout: fullwidth
 title: Kuala Lumpur University
-permalink: /_pages/education/kuala-lumpur
 ---
 
 {% include return.html %}
