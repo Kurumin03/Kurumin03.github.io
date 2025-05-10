@@ -12,7 +12,7 @@ permalink: /education/kuala-lumpur/
 - **Highlight**: Robotics Lab Assistant
 
 <footer class="page-return-footer">
-  <a href="/education/ritsumeikan" class="return-btn">← Previous</a>
+  <a href="/education/ritsumeikan/" class="return-btn">← Previous</a>
   <a href="/"                 class="return-btn">Return to Home</a>
-  <a href="/education/smk-agama-kedah" class="return-btn">Next →</a>
+  <a href="/education/smk-agama-kedah/" class="return-btn">Next →</a>
 </footer>
