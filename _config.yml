@@ -20,7 +20,9 @@ collections:
     output: true
   intern:
     output: true
-
+  pages:
+    output: true
+    
 # Markdown & permalinks
 markdown: kramdown
 permalink: pretty
