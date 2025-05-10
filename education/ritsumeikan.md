@@ -13,5 +13,5 @@ permalink: /education/ritsumeikan/
 
 <footer class="page-return-footer">
   <a href="/"                 class="return-btn">Return to Home</a>
-  <a href="/projects/kuala-lumpur" class="return-btn">Next →</a>
+  <a href="/education/kuala-lumpur" class="return-btn">Next →</a>
 </footer>
