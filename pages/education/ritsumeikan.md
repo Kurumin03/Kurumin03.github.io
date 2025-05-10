@@ -1,7 +1,6 @@
 ---
 layout: fullwidth
 title: Ritsumeikan University
-permalink: /education/ritsumeikan
 ---
 
 {% include return.html %}
