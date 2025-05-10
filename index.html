@@ -1,33 +1,48 @@
 ---
 layout: fullwidth
-title: About Me
+title: Home
 permalink: /
 ---
 
-<!-- Top Nav -->
 <header class="topnav">
-  <nav class="left-nav">
-    <a href="/projects/project1" class="nav-btn">Projects</a>
-    <a href="/education"          class="nav-btn">Education</a>
-    <a href="/intern"             class="nav-btn">Intern</a>
-    <a href="/introduction"       class="nav-btn">Introduction</a>
-  </nav>
+  <div class="left-nav">
+    <!-- empty, we only need right side for home -->
+  </div>
   <div class="right-header">
-    <span class="name">ABDUL MUHYI</span>
-    <a href="/" class="nav-btn active">About Me</a>
+    <span class="name"> <span class="cursive">ABDUL MUHYI</span></span>
   </div>
 </header>
 
-<!-- Hero Section -->
 <section class="hero">
   <div class="hero-text">
-    <h1>Hi, I’m Abdul Muhyi</h1>
+    <h1>Welcome!</h1>
     <p>
-      Robotics major at Ritsumeikan University, passionate about inverse kinematics,
-      path planning, and real‐world automation.
+      Robotics major at Ritsumeikan University with a passion for inverse kinematics,
+      path planning, and real-world automation.  
+      Explore my work and background below.
     </p>
   </div>
   <div class="hero-image">
     <img src="{{ '/assets/A7M00937.JPG' | relative_url }}" alt="Abdul Muhyi">
   </div>
 </section>
+
+<!-- Round nav buttons -->
+<div class="circle-nav">
+  <a href="/projects/project1" class="circle-btn">Projects</a>
+  <a href="/education"          class="circle-btn">Education</a>
+  <a href="/intern"             class="circle-btn">Intern</a>
+  <button id="aboutBtn"         class="circle-btn">About Me</button>
+</div>
+
+<!-- Hidden About Me panel -->
+<section id="aboutMePanel" class="content-panel">
+  <h2>About Me</h2>
+  <p>
+    I’m Abdul Muhyi Bin Faidzuli, a Robotics major at Ritsumeikan University.
+    My focus areas include 7-DOF manipulator inverse kinematics, A* planning,
+    and deploying autonomous solutions.
+  </p>
+</section>
+
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
