@@ -1,61 +1,51 @@
-/* 1. Navbar */
-.navbar {
-  background: #333;
-  padding: 0.5rem;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-}
-.nav-list {
-  list-style: none;
-  margin: 0;
+/* == Tab Bar (top) == */
+.tab-bar {
   display: flex;
   justify-content: center;
+  background: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
-.nav-list li {
-  margin: 0 1rem;
-}
-.nav-list button {
+.tab-bar .tab {
+  flex: 1;
+  padding: 1rem;
   background: none;
   border: none;
   color: #fff;
   font-size: 1rem;
-  padding: 0.5rem 1rem;
   cursor: pointer;
   transition: background 0.3s;
 }
-.nav-list button:hover,
-.nav-list button.active {
-  background: #555;
-  border-radius: 4px;
+.tab-bar .tab:hover,
+.tab-bar .tab.active {
+  background: #444;
 }
 
-/* 2. Panels wrapper to cover whole viewport */
+/* Push content below the tab bar */
 .panels {
+  margin-top: 4rem;
   position: relative;
-  top: 3rem;  /* push below navbar */
-  min-height: calc(100vh - 3rem);
 }
 
-/* 3. Intro panel (slides in from left) */
+/* == Intro Panel == */
 .intro-panel {
   position: fixed;
-  left: -300px;
-  top: 3rem;
-  width: 280px;
+  left: 1rem;
+  top: 5rem;
+  width: 260px;
   background: #444;
   color: #fff;
-  padding: 1rem;
-  box-shadow: 2px 0 8px rgba(0,0,0,0.4);
-  transition: left 0.3s;
-  z-index: 999;
+  padding: 1.5rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  transition: opacity 0.3s;
 }
 .intro-panel h2 {
   margin-top: 0;
 }
 .intro-panel img {
-  display: block;
   width: 100%;
   border-radius: 50%;
   margin: 1rem 0;
@@ -64,23 +54,12 @@
   color: #6cf;
   text-decoration: none;
 }
-.intro-panel .close-btn {
-  background: none;
-  border: none;
-  color: #fff;
-  font-size: 1.5rem;
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  cursor: pointer;
+.intro-panel:not(.open) {
+  opacity: 0;
+  pointer-events: none;
 }
 
-/* slide-in modifier */
-.intro-panel.open {
-  left: 0;
-}
-
-/* 4. Center content panels */
+/* == Content Panels == */
 .content-panel {
   max-width: 700px;
   margin: 2rem auto;
@@ -88,15 +67,10 @@
   padding: 1.5rem;
   border-radius: 4px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  opacity: 0;
-  transform: scale(0.95);
-  transition: opacity 0.3s, transform 0.3s;
   display: none;
 }
 .content-panel.open {
   display: block;
-  opacity: 1;
-  transform: scale(1);
 }
 .content-panel h2 {
   border-bottom: 2px solid #333;
@@ -109,20 +83,11 @@
 }
 .content-panel ul li {
   background: #fff;
-  margin: 0.5rem 0;
+  margin: 0.7rem 0;
   padding: 0.7rem 1rem;
   border-radius: 3px;
   transition: background 0.2s;
 }
 .content-panel ul li:hover {
   background: #eef;
-}
-.content-panel .close-btn {
-  margin-top: 1rem;
-  background: #333;
-  color: #fff;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 3px;
-  cursor: pointer;
 }
