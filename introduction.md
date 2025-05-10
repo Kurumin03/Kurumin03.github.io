@@ -1,18 +1,17 @@
 ---
 layout: fullwidth
 title: Introduction
-permalink: /projects/project1
+permalink: /introduction
 ---
-# Hello, I’m [Your Name]
 
 {% include return.html %}
 
-<section class="project-details">
-  <h1>Project 1: Autonomous Navigation Robot</h1>
+<section class="intro-text">
+  <h1>Introduction</h1>
   <p>
-    This project involved developing an autonomous robot capable of navigating complex environments using sensor data and path-planning algorithms.
+    Hello! I’m Abdul Muhyi Bin Faidzuli. On this site you can explore
+    my projects, education history, and internship experience.
   </p>
-  <!-- Add more project-specific content here -->
 </section>
 
 <footer class="page-return-footer">
