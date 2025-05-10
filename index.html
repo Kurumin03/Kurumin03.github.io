@@ -4,13 +4,53 @@ title: Home
 permalink: /
 ---
 
-<div class="landing">
-  <h1>Welcome to My Portfolio</h1>
-  <p>I’m Abdul Muhyi, Robotics Major at Ritsumeikan University. Explore my work below.</p>
-  <div class="button-row">
-    <a href="/introduction" class="btn">Introduction</a>
-    <a href="/projects/project1" class="btn">Projects</a>
-    <a href="/education" class="btn">Education</a>
-    <a href="/intern" class="btn">Intern</a>
-  </div>
+<nav class="navbar">
+  <ul class="nav-list">
+    <li><button data-panel="intro">Introduction</button></li>
+    <li><button data-panel="projects">Projects</button></li>
+    <li><button data-panel="education">Education</button></li>
+    <li><button data-panel="intern">Intern</button></li>
+  </ul>
+</nav>
+
+<div class="panels">
+  <!-- Introduction panel (slides in from left) -->
+  <aside id="panel-intro" class="panel intro-panel">
+    <h2>Abdul Muhyi Bin Faidzuli</h2>
+    <img src="{{ '/assets/img/your-photo.jpg' | relative_url }}" alt="Your photo">
+    <p>Ritsumeikan University | Robotics Major</p>
+    <a href="https://github.com/Kurumin03" target="_blank">View My GitHub Profile</a>
+    <button class="close-btn" aria-label="Close panel">×</button>
+  </aside>
+
+  <!-- Main content panels (center) -->
+  <section id="panel-projects" class="panel content-panel">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="/projects/project1">Project 1</a></li>
+      <li><a href="/projects/project2">Project 2</a></li>
+      <li><a href="/projects/project3">Project 3</a></li>
+    </ul>
+    <button class="close-btn">Close</button>
+  </section>
+
+  <section id="panel-education" class="panel content-panel">
+    <h2>Education</h2>
+    <ul>
+      <li>Ritsumeikan University</li>
+      <li>Kuala Lumpur University</li>
+      <li>SMK Agama Kedah</li>
+    </ul>
+    <button class="close-btn">Close</button>
+  </section>
+
+  <section id="panel-intern" class="panel content-panel">
+    <h2>Intern</h2>
+    <ul>
+      <li>Nichias FGS Sdn. Bhd.</li>
+    </ul>
+    <button class="close-btn">Close</button>
+  </section>
 </div>
+
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
