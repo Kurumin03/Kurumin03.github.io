@@ -12,10 +12,10 @@ title: Portfolio
     <header>
         <nav>
             <ul class="nav-buttons">
-                <li><a href="#introduction">Introduction</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#intern">Intern</a></li>
+                <li><a href="introduction.md">Introduction</a></li>
+                <li><a href="projects.md">Projects</a></li>
+                <li><a href="education.md">Education</a></li>
+                <li><a href="intern.md">Intern</a></li>
             </ul>
         </nav>
     </header>
@@ -29,24 +29,24 @@ title: Portfolio
     <section id="projects">
         <h2>Projects</h2>
         <ul class="project-list">
-            <li>Project 1</li>
-            <li>Project 2</li>
-            <li>Project 3</li>
+            <li><a href="projects.md">Project 1</a></li>
+            <li><a href="projects.md">Project 2</a></li>
+            <li><a href="projects.md">Project 3</a></li>
         </ul>
     </section>
 
     <section id="education">
         <h2>Education</h2>
         <ul class="education-list">
-            <li>Ritsumeikan University</li>
-            <li>Kuala Lumpur University</li>
-            <li>SMK Agama Kedah</li>
+            <li><a href="education.md">Ritsumeikan University</a></li>
+            <li><a href="education.md">Kuala Lumpur University</a></li>
+            <li><a href="education.md">SMK Agama Kedah</a></li>
         </ul>
     </section>
 
     <section id="intern">
         <h2>Intern</h2>
-        <p>Nichias FGS Sdn. Bhd.</p>
+        <p><a href="intern.md">Nichias FGS Sdn. Bhd.</a></p>
     </section>
 </body>
 </html>
