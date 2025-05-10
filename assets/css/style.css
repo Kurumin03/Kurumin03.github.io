@@ -1,19 +1,128 @@
-body { font-family: Arial, sans-serif; margin:0; padding:0; }
-.navbar { background:#004080; }
-.nav-list { list-style:none; margin:0; padding:0; display:flex; }
-.nav-list li { position:relative; }
-.nav-list li a, .dropbtn {
-  display:block; padding:1rem; color:#fff; text-decoration:none;
-  transition: background .3s;
+/* 1. Navbar */
+.navbar {
+  background: #333;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
-.nav-list li a:hover, .dropbtn:hover { background: #0060c0; }
-.dropdown-content {
-  display:none; position:absolute; top:100%; left:0; background:#0050a0;
+.nav-list {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
-.dropdown:hover .dropdown-content { display:block; }
-.dropdown-content a { padding: .5rem 1rem; }
-.content { padding:2rem; max-width:800px; margin:auto; }
-@media (max-width: 600px) {
-  .nav-list { flex-direction:column; }
-  .dropdown-content { position: static; }
+.nav-list li {
+  margin: 0 1rem;
+}
+.nav-list button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.nav-list button:hover,
+.nav-list button.active {
+  background: #555;
+  border-radius: 4px;
+}
+
+/* 2. Panels wrapper to cover whole viewport */
+.panels {
+  position: relative;
+  top: 3rem;  /* push below navbar */
+  min-height: calc(100vh - 3rem);
+}
+
+/* 3. Intro panel (slides in from left) */
+.intro-panel {
+  position: fixed;
+  left: -300px;
+  top: 3rem;
+  width: 280px;
+  background: #444;
+  color: #fff;
+  padding: 1rem;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.4);
+  transition: left 0.3s;
+  z-index: 999;
+}
+.intro-panel h2 {
+  margin-top: 0;
+}
+.intro-panel img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+.intro-panel a {
+  color: #6cf;
+  text-decoration: none;
+}
+.intro-panel .close-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+}
+
+/* slide-in modifier */
+.intro-panel.open {
+  left: 0;
+}
+
+/* 4. Center content panels */
+.content-panel {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.3s, transform 0.3s;
+  display: none;
+}
+.content-panel.open {
+  display: block;
+  opacity: 1;
+  transform: scale(1);
+}
+.content-panel h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.3rem;
+  margin-top: 0;
+}
+.content-panel ul {
+  list-style: none;
+  padding: 0;
+}
+.content-panel ul li {
+  background: #fff;
+  margin: 0.5rem 0;
+  padding: 0.7rem 1rem;
+  border-radius: 3px;
+  transition: background 0.2s;
+}
+.content-panel ul li:hover {
+  background: #eef;
+}
+.content-panel .close-btn {
+  margin-top: 1rem;
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  cursor: pointer;
 }
