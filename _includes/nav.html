@@ -1,0 +1,21 @@
+<nav class="navbar">
+  <ul class="nav-list">
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    <li class="dropdown">
+      <button class="dropbtn">Introduction</button>
+      <div class="dropdown-content">
+        <a href="{{ '/introduction' | relative_url }}">About Me</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <button class="dropbtn">Projects</button>
+      <div class="dropdown-content">
+        <a href="{{ '/projects/project1' | relative_url }}">Project 1</a>
+        <a href="{{ '/projects/project2' | relative_url }}">Project 2</a>
+        <a href="{{ '/projects/project3' | relative_url }}">Project 3</a>
+      </div>
+    </li>
+    <li><a href="{{ '/education' | relative_url }}">Education</a></li>
+    <li><a href="{{ '/intern' | relative_url }}">Intern</a></li>
+  </ul>
+</nav>
