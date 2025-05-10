@@ -64,10 +64,13 @@ body {
 .topnav .left-nav a.active {
   background: #e0e0e0;
 }
+/* in assets/css/style.css, under “Top Header” */
 .right-header .cursive {
   font-family: 'Brush Script MT', cursive;
-  font-size: 1.8rem;
-  padding-right: 1rem;
+  font-size: 2.5rem;        /* slightly larger */
+  white-space: nowrap;      /* prevent wrapping */
+  padding: 0 1.5rem;        /* extra side padding */
+  line-height: 1;           /* eliminate clipping */
 }
 
 /* Circle Nav */
