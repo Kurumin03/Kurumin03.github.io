@@ -1,7 +1,7 @@
-/* 1. Ensure full‐height pages */
+/* Full‐height pages */
 html, body { height: 100%; margin: 0; }
 
-/* 2. Background */
+/* Global Background */
 body {
   background: url('/assets/240_F_164199298_CRLCgfoGAoEEprge3Deyc8L1dXSHOCMQ.jpg')
               no-repeat center center/cover;
@@ -10,10 +10,10 @@ body {
   color: #222;
 }
 
-/* 3. Top Header */
+/* Top Header */
 .topnav {
   display: flex; justify-content: space-between; align-items: center;
-  padding: 1rem 2rem; background: rgba(255,255,255,0.9);
+  padding: 1rem 2rem; background: rgba(255,255,255,0.95);
   position: fixed; top: 0; width: 100%; z-index: 1000;
 }
 .left-nav a {
@@ -21,61 +21,62 @@ body {
   padding: 0.5rem 0.75rem; border-radius: 4px;
   transition: background 0.2s;
 }
-.left-nav a:hover, .left-nav a.active { background: #e0e0e0; }
+.left-nav a:hover, .left-nav a.active {
+  background: #e0e0e0;
+}
 .right-header .cursive {
   font-family: 'Brush Script MT', cursive;
-  font-size: 3rem;      /* bigger name */
-  white-space: nowrap;
-  padding: 0 2rem; line-height: 1;
+  font-size: 3rem; white-space: nowrap; padding: 0 2rem; line-height: 1;
 }
 
-/* 4. Hero: taller, big text */
+/* Hero: slightly smaller than full screen */
 .hero {
   display: flex; align-items: center; justify-content: space-between;
-  padding-top: 8rem; height: calc(100vh - 8rem);
+  padding-top: 6rem; /* below header */
+  height: calc(80vh - 6rem); /* 80% viewport height */
 }
-.hero-text { flex: 1; padding: 0 2rem; max-width: 50%; }
+.hero-text { flex: 1; padding: 0 2rem; max-width: 45%; }
 .hero-text h1 {
-  font-size: 4.5rem;      /* bigger headline */
-  margin-bottom: 1.5rem;
+  font-size: 4.5rem; margin-bottom: 1.5rem;
 }
 .hero-text p {
-  font-size: 1.75rem;     /* bigger subtext */
-  line-height: 1.6;
+  font-size: 1.75rem; line-height: 1.6;
 }
 
-/* 5. Half-Circle Portrait: larger & repositioned */
+/* Half-Circle Portrait (bigger) */
 .hero-image {
-  width: 60%; height: 100%; overflow: hidden; position: relative;
+  width: 65%; height: 100%; overflow: hidden; position: relative;
 }
 .hero-image img {
   position: absolute; top: 0; right: 0;
-  height: 120%; width: auto;   /* oversize for better framing */
-  clip-path: ellipse(50% 100% at 100% 50%);
+  height: 130%; /* oversize for framing */
+  width: auto;
+  clip-path: ellipse(50% 100% at 100% 50%); /* vertical half-circle :contentReference[oaicite:2]{index=2} */
   object-fit: cover;
+  box-shadow: -4px 0 12px rgba(0,0,0,0.2);
 }
 
-/* 6. Circle Nav: larger buttons */
+/* Larger Circle Navigation Buttons */
 .circle-nav {
-  display: flex; justify-content: center; gap: 2rem; margin: 3rem 0;
+  display: flex; justify-content: center; gap: 2.5rem; margin: 3rem 0;
 }
 .circle-btn {
-  width: 140px; height: 140px;
-  border-radius: 50%; background: #fff;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 160px; height: 160px; border-radius: 50%;
+  background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   display: inline-flex; align-items: center; justify-content: center;
   text-decoration: none; color: #222; font-weight: bold;
-  font-size: 1.1rem; transition: transform 0.2s, box-shadow 0.2s;
+  font-size: 1.2rem; transition: transform 0.2s, box-shadow 0.2s;
 }
 .circle-btn:hover, .circle-btn.active {
-  transform: scale(1.15) translateY(-4px);
+  transform: scale(1.2) translateY(-4px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   background: #eef;
 }
 
-/* 7. Panels & Links */
+/* Content Panels */
 .content-panel {
-  max-width: 700px; margin: 0 auto 3rem;
+  max-width: 600px; /* narrower panels */
+  margin: 0 auto 3rem;
   background: rgba(255,255,255,0.95); padding: 2rem;
   border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   display: none;
@@ -84,16 +85,19 @@ body {
 .content-panel h2 {
   border-bottom: 2px solid #333; padding-bottom: 0.3rem; margin-top: 0;
 }
+
+/* Project & Education Links */
 .content-panel ul li a {
   display: inline-block; padding: 0.5rem 1rem;
   background: #0066cc; color: #fff; border-radius: 4px;
-  margin: 0.3rem; transition: background 0.3s, transform 0.2s;
+  margin: 0.3rem;
+  transition: background 0.3s, transform 0.2s;
 }
 .content-panel ul li a:hover {
   background: #0055aa; transform: translateY(-2px);
 }
 
-/* 8. Footer buttons & quote */
+/* Footer & Quote */
 .site-footer {
   background: rgba(255,255,255,0.9); padding: 2rem 0;
 }
@@ -111,10 +115,10 @@ body {
   font-style: italic; color: #555;
 }
 
-/* Responsive tweaks */
+/* Responsive */
 @media (max-width: 768px) {
   .hero { flex-direction: column; text-align: center; height: auto; }
   .hero-image { width: 100%; height: 300px; }
-  .circle-nav { flex-wrap: wrap; }
+  .circle-nav { flex-wrap: wrap; gap: 1.5rem; }
   .site-footer .footer-inner { flex-direction: column; gap: 1rem; }
 }
