@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const panels        = document.querySelectorAll('.content-panel');
 
   function showPanel(id) {
-    panels.forEach(p => p.id === 'panel-' + id
-      ? p.classList.add('open')
-      : p.classList.remove('open'));
+    panels.forEach(p =>
+      p.id === 'panel-' + id ? p.classList.add('open') : p.classList.remove('open')
+    );
     navButtons.forEach(b => b.classList.toggle('active', b.dataset.panel === id));
     circleButtons.forEach(b => b.classList.toggle('active', b.dataset.panel === id));
   }
@@ -24,6 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   );
 
-  // show About Me by default
+  // default panel
   showPanel('about');
 });
