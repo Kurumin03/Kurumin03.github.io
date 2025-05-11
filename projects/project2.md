@@ -1,7 +1,7 @@
 ---
 layout: fullwidth
 title: Project 2
-permalink: /projects/project2
+permalink: /projects/project2/
 ---
 
 {% include return.html %}
