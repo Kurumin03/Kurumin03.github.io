@@ -1,5 +1,5 @@
 /* Full‐height pages */
-html, body { height: 80%; margin: 0; }
+html, body { height: 100%; margin: 0; }
 
 /* Global Background */
 body {
@@ -32,8 +32,8 @@ body {
 /* Hero: slightly smaller than full screen */
 .hero {
   display: flex; align-items: center; justify-content: space-between;
-  padding-top: 6rem; /* below header */
-  height: calc(80vh - 6rem); /* 80% viewport height */
+  padding-top: 4rem; /* below header */
+  height: calc(60vh - 4rem); /* 80% viewport height */
 }
 .hero-text { flex: 1; padding: 0 2rem; max-width: 45%; }
 .hero-text h1 {
@@ -49,7 +49,7 @@ body {
 }
 .hero-image img {
   position: absolute; top: 0; right: 0;
-  height: 130%; /* oversize for framing */
+  height: 110%; /* oversize for framing */
   width: auto;
   clip-path: ellipse(50% 100% at 100% 50%); /* vertical half-circle :contentReference[oaicite:2]{index=2} */
   object-fit: cover;
