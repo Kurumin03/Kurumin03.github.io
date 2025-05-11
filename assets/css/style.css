@@ -49,7 +49,7 @@ body {
 }
 .hero-image img {
   position: absolute; top: 0; right: 0;
-  height: 90%; /* oversize for framing */
+  height: 80%; /* oversize for framing */
   width: auto;
   clip-path: ellipse(70% 100% at 100% 50%); /* vertical half-circle :contentReference[oaicite:2]{index=2} */
   object-fit: cover;
