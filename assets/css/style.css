@@ -33,7 +33,7 @@ body {
 .hero {
   display: flex; align-items: center; justify-content: space-between;
   padding-top: 4rem; /* below header */
-  height: calc(50vh - 4rem); /* 80% viewport height */
+  height: calc(45vh - 4rem); /* 80% viewport height */
 }
 .hero-text { flex: 1; padding: 0 2rem; max-width: 45%; }
 .hero-text h1 {
@@ -49,7 +49,7 @@ body {
 }
 .hero-image img {
   position: absolute; top: 0; right: 0;
-  height: 150%; /* oversize for framing */
+  height: 120%; /* oversize for framing */
   width: auto;
   clip-path: ellipse(50% 100% at 100% 50%); /* vertical half-circle :contentReference[oaicite:2]{index=2} */
   object-fit: cover;
