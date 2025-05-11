@@ -4,32 +4,26 @@ document.addEventListener('DOMContentLoaded', () => {
   const panels        = document.querySelectorAll('.content-panel');
 
   function showPanel(id) {
-    panels.forEach(p => {
-      p.id === 'panel-' + id
-        ? p.classList.add('open')
-        : p.classList.remove('open');
-    });
-    // sync header and circles
+    panels.forEach(p => p.id === 'panel-' + id
+      ? p.classList.add('open')
+      : p.classList.remove('open'));
     navButtons.forEach(b => b.classList.toggle('active', b.dataset.panel === id));
     circleButtons.forEach(b => b.classList.toggle('active', b.dataset.panel === id));
   }
 
-  // wire top header
-  navButtons.forEach(btn => {
+  navButtons.forEach(btn =>
     btn.addEventListener('click', e => {
       e.preventDefault();
       showPanel(btn.dataset.panel);
-    });
-  });
-
-  // wire circle nav
-  circleButtons.forEach(btn => {
+    })
+  );
+  circleButtons.forEach(btn =>
     btn.addEventListener('click', e => {
       e.preventDefault();
       showPanel(btn.dataset.panel);
-    });
-  });
+    })
+  );
 
-  // on load, show “about”
+  // show About Me by default
   showPanel('about');
 });
