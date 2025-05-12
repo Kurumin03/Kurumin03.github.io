@@ -6,17 +6,33 @@ permalink: /projects/project1/
 
 {% include return.html %}
 
-<section class="project-details">
-  <h1>Project 1: Autonomous Navigation Robot</h1>
-  <p>
-    This project involved developing an autonomous robot capable of navigating
-    complex environments using sensor data and path-planning algorithms.
-  </p>
-  <!-- Add more details here -->
+<section class="project-hero">
+  <img src="{{ '/assets/project1_screenshot.png' | relative_url }}" alt="Project 1 screenshot" class="project-image">
+  <div class="project-intro">
+    <h1>Autonomous Navigation Robot</h1>
+    <p>
+      A 7-DOF robot that maps indoor environments and plans collision-free paths in real time.
+    </p>
+  </div>
 </section>
 
-<footer class="page-return-footer">
-  <a href="/"               class="return-btn">Return to Home</a>
-  <a href="/projects/project2" class="return-btn">Next →</a>
-</footer>
+<section class="project-details">
+  <h2>Overview</h2>
+  <p>In this project, I …</p>
 
+  <h2>Technologies Used</h2>
+  <ul>
+    <li>Python & ROS</li>
+    <li>A* Path Planning</li>
+    <li>LIDAR & SLAM</li>
+  </ul>
+
+  <h2>Challenges & Learnings</h2>
+  <p>I learned how to …</p>
+</section>
+
+
+<footer class="page-return-footer">
+  <a href="/"               class="btn btn-home">🏠 Home</a>
+  <a href="/projects/project2" class="btn btn-next">Next →</a>
+</footer>
