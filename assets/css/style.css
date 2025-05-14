@@ -194,3 +194,26 @@ body {
   background-color: #004499;           /* darker on hover */
   transform: translateY(-2px);         /* slight lift */
 }
+/* Icon-only return button */
+.page-return {
+  padding: 1rem 2rem;
+}
+.return-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.9);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: background 0.2s, transform 0.2s;
+  text-decoration: none;
+}
+.return-icon svg {
+  width: 100%;
+  height: 100%;
+}
+.return-icon:hover {
+  background: rgba(255,255,255,1);
+  transform: translateX(-2px);
+}
