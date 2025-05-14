@@ -75,11 +75,11 @@ Tested cover’s ability to block chips, maintain machine function, and reduce f
 ## Control  
 Tested cover’s ability to block chips, maintain machine function, and reduce floor debris.
 <figure>
-  <img src="{{ '/assets/abc.jpg' | relative_url }}" alt="Feedback Control" />
+  <img src="{{ '/assets/abc.png' | relative_url }}" alt="Feedback Control" />
   <figcaption>Feedback Control</figcaption>
 </figure>
   <figure>
-  <img src="{{ '/assets/cde.jpg' | relative_url }}" alt="Ball Trajectory Tracking" />
+  <img src="{{ '/assets/cde.png' | relative_url }}" alt="Ball Trajectory Tracking" />
   <figcaption>Ball Trajectory Tracking</figcaption>
 </figure>
   <figure>
