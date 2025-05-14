@@ -244,12 +244,31 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Universal panel wrapper—same styling as your intern sections */
-.page-panel {
-  max-width: 700px;                   /* card width */
-  margin: 4rem auto 3rem;             /* space from header & footer */
-  background: rgba(255,255,255,0.95); /* translucent white */
-  padding: 2rem;                      /* breathing room */
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+/* Ensure figures sit nicely inside the panel */
+.page-panel figure {
+  margin: 1.5rem 0;           /* space above/below each image */
+  text-align: center;         /* center captions and images */
+}
+
+/* Make images responsive within the panel */
+.page-panel figure img {
+  max-width: 100%;            /* never exceed panel width */
+  height: auto;               /* keep aspect ratio */
+  border-radius: 4px;         /* subtle rounding to match panel */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Also constrain standalone images (outside figure tags) */
+.page-panel img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* Videos too */
+.page-panel video {
+  max-width: 100%;
+  display: block;
+  margin: 1rem auto;
 }
