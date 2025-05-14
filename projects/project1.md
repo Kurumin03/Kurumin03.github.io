@@ -33,6 +33,6 @@ permalink: /projects/project1/
 
 
 <footer class="project-footer">
-  <a href="/"               class="btn btn-home">🏠 Home</a>
+  <a href="/"               class="btn btn-home"> Home</a>
   <a href="/projects/project2" class="btn btn-next">Next →</a>
 </footer>
