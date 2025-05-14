@@ -11,10 +11,6 @@ permalink: /certifications/
 - **Fundamental Information Technology Engineer** (FE)  
 - **AWS Certified Cloud Practitioner**  
 - **TOEIC:** 965  
-- **Coursera:** Robotics Specialization (UPenn)  
-- **Udacity:** Self-Driving Cars NanoDegree  
-- **edX:** Control of Mobile Robots (Georgia Tech)  
-- **MIT OCW:** Introduction to Robotics
 
 <footer class="project-footer">
   <a href="/" class="btn btn-home">Home</a>
