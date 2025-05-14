@@ -12,6 +12,6 @@ permalink: /intern/nichias/
 – Designed sensor‐integration modules for plant‐floor equipment  
 – Collaborated on PLC scripting and SCADA dashboards
 
-<footer class="page-return-footer">
-  <a href="/" class="return-btn">Return to Home</a>
+<footer class="project-footer">
+  <a href="/"                 class="btn btn-home">Home</a>
 </footer>
