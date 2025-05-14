@@ -51,31 +51,46 @@ Without proper guarding, operators risk injuries from flying chips or entangleme
 
 <hr/>
 
-## Experiment Study  
+## Design  
 Tested cover’s ability to block chips, maintain machine function, and reduce floor debris.
+<figure>
+  <img src="{{ '/assets/Picture11.jpg' | relative_url }}" alt="Initial Design" />
+  <figcaption>Initial Design</figcaption>
+</figure
+  <figure>
+  <img src="{{ '/assets/Picture12.jpg' | relative_url }}" alt="FInal Design" />
+  <figcaption>Final Design</figcaption>
+</figure>
+
+<hr/>
+
+## Circuit
+Tested cover’s ability to block chips, maintain machine function, and reduce floor debris.
+<figure>
+  <img src="{{ '/assets/Picture14.jpg' | relative_url }}" alt="Circuit" />
+  <figcaption>Circuit</figcaption>
+</figure
+
+<hr/>
+
+## Control  
+Tested cover’s ability to block chips, maintain machine function, and reduce floor debris.
+<figure>
+  <img src="{{ '/assets/Picture9.png' | relative_url }}" alt="2D Drawing of the base" />
+  <figcaption>2D Drawing of the base</figcaption>
+</figure
+  <figure>
+  <img src="{{ '/assets/Picture9.png' | relative_url }}" alt="2D Drawing of the base" />
+  <figcaption>2D Drawing of the base</figcaption>
+</figure>
 
 <hr/>
 
 ## Results  
 
 <figure>
-  <img src="{{ '/assets/Picture9.png' | relative_url }}" alt="2D Drawing of the base" />
-  <figcaption>2D Drawing of the base</figcaption>
-</figure>
-
-<figure>
-  <img src="{{ '/assets/Picture3.jpg' | relative_url }}" alt="3D Drawing of the base" />
-  <figcaption>3D Drawing of the base</figcaption>
-</figure>
-
-<figure>
-  <img src="{{ '/assets/Picture4.jpg' | relative_url }}" alt="2D Drawing of the frame" />
-  <figcaption>2D Drawing of the frame</figcaption>
-</figure>
-
-<figure>
-  <img src="{{ '/assets/Picture5.jpg' | relative_url }}" alt="3D Drawing of the frame" />
-  <figcaption>3D Drawing of the frame</figcaption>
+  <img src="{{ '/assets/Picture13.jpg' | relative_url }}" alt="Ping Pong Robot" />
+  <figcaption>Ping Pong Robot</figcaption>
 </figure>
 
 <hr/>
@@ -88,8 +103,16 @@ Tested cover’s ability to block chips, maintain machine function, and reduce f
 <hr/>
 
 ## Demo Video  
+
+**Ball Tracking Program**
 <video controls style="max-width:100%;margin:1rem 0;">
-  <source src="{{ '/assets/Media1.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/Media3.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+**Robot Movement**
+<video controls style="max-width:100%;margin:1rem 0;">
+  <source src="{{ '/assets/Media2.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
