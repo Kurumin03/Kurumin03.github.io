@@ -21,7 +21,7 @@ permalink: /education/ritsumeikan/
   - Computer Programming  
   - Exercises in Robot Design & Experiment in Robot Creation
 
-<footer class="page-return-footer">
-  <a href="/education/kuala-lumpur/" class="btn btn-next">Next →</a>
+<footer class="project-footer">
   <a href="/"                          class="btn btn-home">Home</a>
+  <a href="/education/kuala-lumpur/" class="btn btn-next">Next →</a>
 </footer>
