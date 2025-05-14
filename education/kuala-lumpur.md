@@ -1,5 +1,5 @@
 ---
-layout: fullwidth
+layout: panel
 title: Universiti Kuala Lumpur
 permalink: /education/kuala-lumpur/
 ---
