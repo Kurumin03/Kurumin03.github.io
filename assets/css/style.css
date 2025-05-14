@@ -158,29 +158,39 @@ body {
   margin: 1rem 0;
 }
 
-/* Footer Buttons */
+/* Project Footer Buttons */
 .project-footer {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin: 3rem 0;
+  text-align: center;      /* center the buttons */
+  margin: 3rem 0;          /* vertical spacing */
 }
+
 .project-footer .btn {
-  padding: 0.6rem 1.2rem;
-  background: #0066cc;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
+  display: inline-block;               /* respect padding */
+  margin: 0 0.5rem;                    /* small gap between buttons */
+  padding: 0.75rem 1.5rem;             /* top/bottom & left/right */
+  background-color: #0066cc;           /* default button color */
+  color: #fff;                         /* text color */
+  text-decoration: none;               /* remove underline */
+  border-radius: 25px;                 /* pill-shaped corners */
+  border: none;                        /* no border */
+  font-size: 1rem;                     /* adjust as desired */
+  font-weight: 600;
   transition: background 0.3s, transform 0.2s;
 }
-.project-footer .btn-prev,
-.project-footer .btn-next {
-  background: #0055aa;
+
+/* Specific button variants (optional) */
+.project-footer .btn-prev {
+  background-color: #0055aa;
 }
 .project-footer .btn-home {
-  background: #333;
+  background-color: #333;
 }
+.project-footer .btn-next {
+  background-color: #0055aa;
+}
+
+/* Hover effects */
 .project-footer .btn:hover {
-  background: #004499;
-  transform: translateY(-2px);
+  background-color: #004499;           /* darker on hover */
+  transform: translateY(-2px);         /* slight lift */
 }
