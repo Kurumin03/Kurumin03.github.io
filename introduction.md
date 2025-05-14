@@ -1,6 +1,6 @@
 ---
 layout: panel
-title: Certifications & Courses
+title: Introduction
 permalink: /introduction/
 ---
 
@@ -8,10 +8,56 @@ permalink: /introduction/
 
 # Hello, I’m Abdul Muhyi Bin Faidzuli
 
-I’m from Alor Setar, currently pursuing a **Degree in Robotics** at Ritsumeikan University, Japan.  
-With a 3.58 CGPA, I specialize in inverse kinematics, A* path planning, sensor integration, and autonomous system deployment. 
+**Robotics Major** | Ritsumeikan University (Biwako Kusatsu)  
+**Diploma in Mechanical Engineering** | Universiti Kuala Lumpur, Malaysian France Institute  
+**High School Diploma** | SMK Agama Kedah  
+
+---
+
+## 👨‍🎓 Academic Profile
+
+- **Current CGPA:** 3.58 / 4.00  
+- **Key Areas:**  
+  - 7-DOF Manipulator Inverse Kinematics  
+  - A* Path Planning & SLAM  
+  - Sensor Integration & Robot Vision  
+  - Autonomous System Deployment  
+
+---
+
+## 🛠️ Technical Skills
+
+| Programming & Tools            | CAD & Simulation    | Web & Design      |
+| ------------------------------ | ------------------- | ----------------- |
+| C / C++, Python, MATLAB        | Fusion 360, AutoCAD | HTML, CSS, JS     |
+| ROS & Gazebo                   | Solid Edge          | Canva, Photoshop  |
+| Git, CI/CD, Linux Shell        |                     |                   |
+
+---
+
+## 📜 Certifications & Courses
+
+- **JLPT N1** (Japanese Proficiency)  
+- **Coursera:** Robotics Specialization (UPenn)  
+- **Udacity:** Self-Driving Cars NanoDegree  
+- **edX:** Control of Mobile Robots (Georgia Tech)  
+
+---
+
+## 🌐 Languages
+
+- Malay (Native)  
+- English (Proficient, TOEIC 965)  
+- Japanese (JLPT N1)  
+
+---
+
+## 🎯 Career Objective
+
+> To leverage my robotics expertise—combining advanced kinematics, planning algorithms, and hands-on system integration—to design and deploy next-generation autonomous solutions in industry.
+
+---
 
 <footer class="project-footer">
   <a href="/" class="btn btn-home">Home</a>
 </footer>
-
