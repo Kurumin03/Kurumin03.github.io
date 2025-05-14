@@ -19,6 +19,8 @@ Without proper guarding, operators risk injuries from flying chips or entangleme
 ## Project Background  
 - Between 1992–2010, machinery accidents caused 14,625 deaths (avg. 770/year).  
 - Many conventional milling machines lack safety covers, exposing operators to hazards.
+[mobile and stationary machine accidents](/assets/path-to-image.jpg)
+
 
 ---
 
@@ -55,9 +57,27 @@ Without proper guarding, operators risk injuries from flying chips or entangleme
 ---
 
 ## Results  
+- **2D Drawing of the base:**
+   ![Alt text describing the image](/assets/path-to-image.jpg)
+- **3D Drawing of the base:**
+   ![Alt text describing the image](/assets/path-to-image.jpg)
+- **2D Drawing of the frame:**
+   ![Alt text describing the image](/assets/path-to-image.jpg)
+- **3D Drawing of the frame:** 
+  ![Alt text describing the image](/assets/path-to-image.jpg)
+  
+---
+## Results  
 - **Objective 1:** Identified key hazards of unguarded milling machines.  
 - **Objective 2:** Created a cover that does not interfere with machine operation.  
-- **Objective 3:** Demonstrated chip containment and reduced floor debris. :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}
+- **Objective 3:** Demonstrated chip containment and reduced floor debris.
+  ![Alt text describing the image](/assets/path-to-image.jpg)
+  
+---
+
+## Video
+![Alt text describing the image](/assets/path-to-image.jpg)
+
 
 ---
 
