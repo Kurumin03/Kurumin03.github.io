@@ -1,5 +1,5 @@
 ---
-layout: fullwidth
+layout: panel
 title: Project 1
 permalink: /projects/project1/
 ---
