@@ -8,7 +8,7 @@ permalink: /education/kuala-lumpur/
 
 # Universiti Kuala Lumpur, Malaysian France Institute  
 **Diploma in Mechanical Engineering** (July 2021 – February 2024)  
-- **CGPA:** 3.58 (Dean’s List × 4) :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}  
+- **CGPA:** 3.58 (Dean’s List × 4) 
 - **Key Coursework:**  
   - Mathematics, Physics, Chemistry  
   - Control Theory & Mechanical Instrumentation  
