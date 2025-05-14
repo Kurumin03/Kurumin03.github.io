@@ -14,6 +14,6 @@ permalink: /skills/
 - **Machine Shop:** Lathe, Milling, Drilling  
 - **Languages:** Malay (Native), English (Proficient), Japanese (JLPT N1)
 
-<footer class="page-return-footer">
+<footer class="project-footer">
   <a href="/" class="btn btn-home">Home</a>
 </footer>
