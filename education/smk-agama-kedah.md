@@ -12,7 +12,7 @@ permalink: /education/smk-agama-kedah/
   - Assisted in daily opening/closing and oversight of the school library  
   - Organized and led weekly librarian meetings to maintain order and cleanliness
 
-<footer class="page-return-footer">
+<footer class="project-footer">
   <a href="/education/kuala-lumpur/" class="btn btn-prev">← Previous</a>
   <a href="/"                          class="btn btn-home">Home</a>
 </footer>
