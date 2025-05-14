@@ -7,8 +7,7 @@ permalink: /projects/project3/
 {% include return.html %}
 
 # DEVELOPMENT OF SAFETY COVER AT HORIZONTAL MILLING MACHINE  
-*Final Year Project, Universiti Kuala Lumpur* :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}
-
+*Final Year Project, Universiti Kuala Lumpur* 
 ---
 
 ## Introduction  
