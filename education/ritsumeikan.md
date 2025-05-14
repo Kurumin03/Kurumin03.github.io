@@ -1,5 +1,5 @@
 ---
-layout: fullwidth
+layout: panel
 title: Ritsumeikan University
 permalink: /education/ritsumeikan/
 ---
