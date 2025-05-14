@@ -58,24 +58,40 @@ Tested cover’s ability to block chips, maintain machine function, and reduce f
 
 ## Results  
 
+Demo Video  
+<video controls style="max-width:100%;margin:1rem 0;">
+  <source src="{{ '/assets/Media4.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 <figure>
-  <img src="{{ '/assets/Picture9.png' | relative_url }}" alt="2D Drawing of the base" />
-  <figcaption>2D Drawing of the base</figcaption>
+  <img src="{{ '/assets/Picture16.jpg' | relative_url }}" alt="Movement Range" />
+  <figcaption>Movement Range</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ '/assets/Picture3.jpg' | relative_url }}" alt="3D Drawing of the base" />
-  <figcaption>3D Drawing of the base</figcaption>
+  <img src="{{ '/assets/Picture18.jpg' | relative_url }}" alt="Error along Best Trajectory" />
+  <figcaption>Error along Best Trajectory</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ '/assets/Picture4.jpg' | relative_url }}" alt="2D Drawing of the frame" />
-  <figcaption>2D Drawing of the frame</figcaption>
+  <img src="{{ '/assets/Picture18.jpg' | relative_url }}" alt="Error along Best Trajectory" />
+  <figcaption>Error along Best Trajectory</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ '/assets/Picture5.jpg' | relative_url }}" alt="3D Drawing of the frame" />
-  <figcaption>3D Drawing of the frame</figcaption>
+  <img src="{{ '/assets/Picture19.jpg' | relative_url }}" alt="XY Projection along Best Trajectory" />
+  <figcaption>XY Projection along Best Trajectory</figcaption>
+</figure>
+
+<figure>
+  <img src="{{ '/assets/Picture20.jpg' | relative_url }}" alt="Final pose and EE Manipulability Ellipses" />
+  <figcaption>Final pose and EE Manipulability Ellipses</figcaption>
+</figure>
+
+<figure>
+  <img src="{{ '/assets/Picture21.jpg' | relative_url }}" alt="Normalized Planar Manipulability Ellipses" />
+  <figcaption>Normalized Planar Manipulability Ellipses</figcaption>
 </figure>
 
 <hr/>
@@ -86,12 +102,6 @@ Tested cover’s ability to block chips, maintain machine function, and reduce f
 - **Objective 3:** Demonstrated chip containment and reduced floor debris.
 
 <hr/>
-
-## Demo Video  
-<video controls style="max-width:100%;margin:1rem 0;">
-  <source src="{{ '/assets/Media1.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 <hr/>
 
