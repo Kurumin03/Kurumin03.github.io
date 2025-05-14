@@ -1,5 +1,5 @@
 ---
-layout: fullwidth
+layout: panel
 title: SMK Agama Kedah
 permalink: /education/smk-agama-kedah/
 ---
