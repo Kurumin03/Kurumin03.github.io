@@ -18,12 +18,11 @@ Without proper guarding, operators risk injuries from flying chips or entangleme
 <hr/>
 
 ## Project Background  
-- Between 1992–2010, machinery accidents caused 14,625 deaths (avg. 770/year).  
-- Many conventional milling machines lack safety covers, exposing operators to hazards.
+- Omron Ping Pong Robot.  
 
 <figure>
-  <img src="{{ '/assets/Picture8.png' | relative_url }}" alt="Mobile and stationary machine accidents" />
-  <figcaption>Figure: Accident statistics for mobile vs. stationary machinery</figcaption>
+  <img src="{{ '/assets/c1010.jpg' | relative_url }}" alt="Omron Ping Pong Robot" />
+  <figcaption>Figure: Omron Ping Pong Robot</figcaption>
 </figure>
 
 <hr/>
@@ -56,7 +55,7 @@ Tested cover’s ability to block chips, maintain machine function, and reduce f
 <figure>
   <img src="{{ '/assets/Picture11.jpg' | relative_url }}" alt="Initial Design" />
   <figcaption>Initial Design</figcaption>
-</figure
+</figure>
   <figure>
   <img src="{{ '/assets/Picture12.jpg' | relative_url }}" alt="FInal Design" />
   <figcaption>Final Design</figcaption>
@@ -69,19 +68,23 @@ Tested cover’s ability to block chips, maintain machine function, and reduce f
 <figure>
   <img src="{{ '/assets/Picture14.jpg' | relative_url }}" alt="Circuit" />
   <figcaption>Circuit</figcaption>
-</figure
+</figure>
 
 <hr/>
 
 ## Control  
 Tested cover’s ability to block chips, maintain machine function, and reduce floor debris.
 <figure>
-  <img src="{{ '/assets/Picture9.png' | relative_url }}" alt="2D Drawing of the base" />
-  <figcaption>2D Drawing of the base</figcaption>
-</figure
+  <img src="{{ '/assets/abc.jpg' | relative_url }}" alt="Feedback Control" />
+  <figcaption>Feedback Control</figcaption>
+</figure>
   <figure>
-  <img src="{{ '/assets/Picture9.png' | relative_url }}" alt="2D Drawing of the base" />
-  <figcaption>2D Drawing of the base</figcaption>
+  <img src="{{ '/assets/cde.jpg' | relative_url }}" alt="Ball Trajectory Tracking" />
+  <figcaption>Ball Trajectory Tracking</figcaption>
+</figure>
+  <figure>
+  <img src="{{ '/assets/wasd.png' | relative_url }}" alt="Mathematical Equation" />
+  <figcaption>Mathematical Equation</figcaption>
 </figure>
 
 <hr/>
