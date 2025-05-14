@@ -11,8 +11,8 @@ permalink: /education/kuala-lumpur/
 - **Major**: [Your Major]  
 - **Highlight**: Robotics Lab Assistant
 
-<footer class="page-return-footer">
-  <a href="/education/ritsumeikan/" class="return-btn">← Previous</a>
-  <a href="/"                 class="return-btn">Return to Home</a>
-  <a href="/education/smk-agama-kedah/" class="return-btn">Next →</a>
+<footer class="project-footer">
+  <a href="/education/ritsumeikan/" class="btn btn-prev">← Previous</a>
+  <a href="/"                 class="btn btn-home">Home</a>
+  <a href="/education/smk-agama-kedah/" class="btn btn-next">Next →</a>
 </footer>
