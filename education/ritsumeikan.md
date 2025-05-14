@@ -11,7 +11,7 @@ permalink: /education/ritsumeikan/
 - **Degree**: Robotics Major  
 - **Coursework**: Advanced Kinematics, Path Planning, AI for Robotics
 
-<footer class="page-return-footer">
-  <a href="/"                 class="return-btn">Return to Home</a>
-  <a href="/education/kuala-lumpur" class="return-btn">Next →</a>
+<footer class="project-footer">
+  <a href="/"                 class="btn btn-home">Home</a>
+  <a href="/education/kuala-lumpur/" class="btn btn-next">Next →</a>
 </footer>
