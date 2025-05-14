@@ -8,7 +8,7 @@ permalink: /education/ritsumeikan/
 
 # Ritsumeikan University, Biwako Kusatsu Campus  
 **Degree in Robotics** (April 2024 – March 2026)  
-- **CGPA:** 3.58 :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}  
+- **CGPA:** 3.58 
 - **Key Coursework:**  
   - Actuators  
   - Applied Mathematics  
