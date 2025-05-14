@@ -58,25 +58,25 @@ Without proper guarding, operators risk injuries from flying chips or entangleme
 
 ## Results  
 - **2D Drawing of the base:**
-   ![Alt text describing the image](assets/Picture1.jpg)
+   ![2D Design](assets/Picture9.jpg)
 - **3D Drawing of the base:**
-   ![Alt text describing the image](assets/Picture3.jpg)
+   ![3D Design](assets/Picture3.jpg)
 - **2D Drawing of the frame:**
-   ![Alt text describing the image](assets/Picture4.jpg)
+   ![2D Design](assets/Picture4.jpg)
 - **3D Drawing of the frame:** 
-  ![Alt text describing the image](assets/Picture5.jpg)
+  ![3D Design](assets/Picture5.jpg)
   
 ---
 ## Results  
 - **Objective 1:** Identified key hazards of unguarded milling machines.  
 - **Objective 2:** Created a cover that does not interfere with machine operation.  
 - **Objective 3:** Demonstrated chip containment and reduced floor debris.
-  ![Alt text describing the image](/assets/path-to-image.jpg)
+  ![result](/assets/path-to-image.jpg)
   
 ---
 
 ## Video
-![Alt text describing the image](assets/Media1.mp4)
+![video](assets/Media1.mp4)
 
 
 ---
