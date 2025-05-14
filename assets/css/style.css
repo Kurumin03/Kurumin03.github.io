@@ -243,3 +243,23 @@ body {
 .intern-activities li {
   margin-bottom: 1rem;
 }
+/* Universal page-panel styling (same as intern) */
+.page-panel {
+  max-width: 900px;
+  margin: 6rem auto 3rem;      /* space for header + bottom */
+  background: rgba(255,255,255,0.95);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* If you want a full-bleed hero inside page-panel */
+.page-panel .hero,
+.page-panel .intern-hero,
+.page-panel .company-overview,
+.page-panel .project-hero {
+  background: none;            /* let the page-panel background show */
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
