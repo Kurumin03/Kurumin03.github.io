@@ -59,7 +59,7 @@ Tested cover’s ability to block chips, maintain machine function, and reduce f
 ## Results  
 
 <figure>
-  <img src="{{ '/assets/Picture9.jpg' | relative_url }}" alt="2D Drawing of the base" />
+  <img src="{{ '/assets/Picture9.png' | relative_url }}" alt="2D Drawing of the base" />
   <figcaption>2D Drawing of the base</figcaption>
 </figure>
 
