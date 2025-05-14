@@ -11,7 +11,7 @@ permalink: /education/smk-agama-kedah/
 - **High School Diploma**  
 - **Activities**: Robotics Club President
 
-<footer class="page-return-footer">
-  <a href="/education/kuala-lumpur" class="return-btn">← Previous</a>
-  <a href="/"                 class="return-btn">Return to Home</a>
+<footer class="project-footer">
+  <a href="/education/kuala-lumpur/" class="btn btn-prev">← Previous</a>
+  <a href="/"                 class="btn btn-home">Home</a>
 </footer>
