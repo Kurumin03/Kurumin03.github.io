@@ -1,7 +1,7 @@
 ---
 layout: panel
 title: Certifications & Courses
-permalink: /certifications/
+permalink: /introduction/
 ---
 
 {% include return.html %}
