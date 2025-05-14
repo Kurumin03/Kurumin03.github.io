@@ -1,5 +1,5 @@
 ---
-layout: fullwidth
+layout: panel
 title: Skills & Technologies
 permalink: /skills/
 ---
