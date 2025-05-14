@@ -8,7 +8,7 @@ permalink: /education/smk-agama-kedah/
 
 # SMK Agama Kedah  
 **High School Diploma** (2017 – 2020)  
-- **Role:** Leader of the Cleanliness Biro, SMK Agama Kedah Librarian Org. :contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}  
+- **Role:** Leader of the Cleanliness Biro, SMK Agama Kedah Librarian Org. 
   - Assisted in daily opening/closing and oversight of the school library  
   - Organized and led weekly librarian meetings to maintain order and cleanliness
 
