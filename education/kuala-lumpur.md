@@ -17,8 +17,8 @@ permalink: /education/kuala-lumpur/
   - Machine Design & Mechanics of Materials  
   - Engineering Ethics & Machine Elements
 
-<footer class="page-return-footer">
+<footer class="project-footer">
   <a href="/education/ritsumeikan/" class="btn btn-prev">← Previous</a>
-  <a href="/education/smk-agama-kedah/" class="btn btn-next">Next →</a>
   <a href="/"                            class="btn btn-home">Home</a>
+  <a href="/education/smk-agama-kedah/" class="btn btn-next">Next →</a>
 </footer>
