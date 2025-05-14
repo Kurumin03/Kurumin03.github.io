@@ -1,18 +1,24 @@
 ---
 layout: fullwidth
-title: Kuala Lumpur University
+title: Universiti Kuala Lumpur
 permalink: /education/kuala-lumpur/
 ---
 
 {% include return.html %}
 
-# Kuala Lumpur University
+# Universiti Kuala Lumpur, Malaysian France Institute  
+**Diploma in Mechanical Engineering** (July 2021 – February 2024)  
+- **CGPA:** 3.58 (Dean’s List × 4) :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}  
+- **Key Coursework:**  
+  - Mathematics, Physics, Chemistry  
+  - Control Theory & Mechanical Instrumentation  
+  - Thermodynamics & Fluid Mechanics  
+  - Information Processing & Mechanical Vibration  
+  - Machine Design & Mechanics of Materials  
+  - Engineering Ethics & Machine Elements
 
-- **Major**: [Your Major]  
-- **Highlight**: Robotics Lab Assistant
-
-<footer class="project-footer">
+<footer class="page-return-footer">
   <a href="/education/ritsumeikan/" class="btn btn-prev">← Previous</a>
-  <a href="/"                 class="btn btn-home">Home</a>
   <a href="/education/smk-agama-kedah/" class="btn btn-next">Next →</a>
+  <a href="/"                            class="btn btn-home">Home</a>
 </footer>
