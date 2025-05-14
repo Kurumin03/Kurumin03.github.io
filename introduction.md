@@ -14,15 +14,13 @@ permalink: /introduction/
 
 ---
 
-## 👨‍🎓 Academic Profile
+## Hobby
 
-- **Current CGPA:** 3.58 / 4.00  
-- **Key Areas:**  
-  - 7-DOF Manipulator Inverse Kinematics  
-  - A* Path Planning & SLAM  
-  - Sensor Integration & Robot Vision  
-  - Autonomous System Deployment  
-
+- **Badminton**  
+- **Matcha**  
+- **Travelling**  
+- **Cafe Hunting**
+  
 ---
 
 ## 🛠️ Technical Skills
