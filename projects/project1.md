@@ -32,7 +32,7 @@ permalink: /projects/project1/
 </section>
 
 
-<footer class="page-return-footer">
+<footer class="project-footer">
   <a href="/"               class="btn btn-home">🏠 Home</a>
   <a href="/projects/project2" class="btn btn-next">Next →</a>
 </footer>
