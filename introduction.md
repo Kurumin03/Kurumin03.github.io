@@ -1,7 +1,7 @@
 ---
-layout: fullwidth
-title: Introduction
-permalink: /introduction/
+layout: panel
+title: Certifications & Courses
+permalink: /certifications/
 ---
 
 {% include return.html %}
@@ -9,8 +9,9 @@ permalink: /introduction/
 # Hello, I’m Abdul Muhyi Bin Faidzuli
 
 I’m from Alor Setar, currently pursuing a **Degree in Robotics** at Ritsumeikan University, Japan.  
-With a 3.58 CGPA, I specialize in inverse kinematics, A* path planning, sensor integration, and autonomous system deployment. :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}
+With a 3.58 CGPA, I specialize in inverse kinematics, A* path planning, sensor integration, and autonomous system deployment. 
 
-<footer class="page-return-footer">
-  <a href="/" class="return-btn">Return to Home</a>
+<footer class="project-footer">
+  <a href="/" class="btn btn-home">Home</a>
 </footer>
+
