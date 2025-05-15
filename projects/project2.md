@@ -12,13 +12,12 @@ permalink: /projects/project2/
 <hr/>
 
 ## Introduction  
-Milling removes material via rotary cutters—used for grooving, boring, drilling, etc.  
-Without proper guarding, operators risk injuries from flying chips or entanglement.
+A single–player ping-pong robot designed to track and return balls autonomously using computer vision and precise actuation.
 
 <hr/>
 
 ## Project Background  
-- Omron Ping Pong Robot.  
+In the Robot Creation Experiment course, we built a fully autonomous ping-pong robot inspired by Omron’s design. The goal was to let a single player practice rallying against a machine—no human partner required. We optimized for senior users by including an adjustable difficulty function (Easy ↔ Hard) and designed it compactly for potential arcade installation.
 
 <figure>
   <img src="{{ '/assets/c1010.jpg' | relative_url }}" alt="Omron Ping Pong Robot" />
@@ -28,30 +27,33 @@ Without proper guarding, operators risk injuries from flying chips or entangleme
 <hr/>
 
 ## Problem Statement  
-- **Sharp metal chips** can fly off and injure the operator.  
-- **No barrier** separates the operator from the rotating blade.  
-- **Lack of maintenance** increases risk over time.
+Home practice for table tennis is limited by the need for a human partner, and existing single-player machines are bulky, expensive, or lack adjustable difficulty. We aimed to create a cost-effective, compact robot that can track and return balls at variable speeds, suitable for both seniors and casual players.
 
 <hr/>
 
 ## Objectives  
-1. **Identify & analyze** hazards of horizontal milling machines.  
-2. **Design** a durable, easy‐to‐install safety cover that does not impede operation.  
-3. **Evaluate** cover effectiveness through testing and simulation.  
-4. **Promote** safety cover use as best practice in industry.
-
+From the course brief, our deliverables were:  
+1. **Design** a mechanical system for precise two-axis paddle movement.  
+2. **Develop** the electronic circuit to drive motors based on computed trajectories.  
+3. **Implement** a control algorithm (vision + feedback) for real-time ball tracking and return.  
+4. **Demonstrate** functional robot performance through live ball tracking and rally tests.
+   
 <hr/>
 
-## Methodology  
-1. **Research & Reference Gathering (W1–W6)** – Survey safety standards & existing cover designs.  
-2. **CAD Modeling (W3–W6)** – Sketch concepts; refine with 2D/3D CAD drawings.  
-3. **Manufacturing (W7–W9)** – Fabricate using cutting, bending, welding; assemble & inspect.  
-4. **Documentation (W10–W12)** – Compile thesis: literature review, design, manufacturing, test results.
+## Materials & Mechanics  
+- **Vertical Movement:** GT2 timing belt  
+  - Precise position control  
+  - High-speed rally compatibility  
+  - Durable under continuous operation  
+- **Horizontal Movement:** Rack & pinion  
+  - Accurate linear positioning  
+  - High rigidity and durability  
 
 <hr/>
 
 ## Design  
-Tested cover’s ability to block chips, maintain machine function, and reduce floor debris.
+
+**Initial vs. Final Build**  
 <figure>
   <img src="{{ '/assets/Picture11.jpg' | relative_url }}" alt="Initial Design" />
   <figcaption>Initial Design</figcaption>
@@ -61,10 +63,19 @@ Tested cover’s ability to block chips, maintain machine function, and reduce f
   <figcaption>Final Design</figcaption>
 </figure>
 
+**Vertical axis:** GT2 timing belt drive  
+- Provides precise, backlash-free positioning  
+- High durability for continuous rallies  
+- Smooth operation compatible with high-speed ball returns  
+
+**Horizontal axis:** Rack & pinion  
+- High rigidity under lateral loads  
+- Accurate linear motion for consistent returns
+  
 <hr/>
 
 ## Circuit
-Tested cover’s ability to block chips, maintain machine function, and reduce floor debris.
+Created the drawing of the circuit in Tinkercad
 <figure>
   <img src="{{ '/assets/Picture14.jpg' | relative_url }}" alt="Circuit" />
   <figcaption>Circuit</figcaption>
@@ -73,35 +84,31 @@ Tested cover’s ability to block chips, maintain machine function, and reduce f
 <hr/>
 
 ## Control  
-Tested cover’s ability to block chips, maintain machine function, and reduce floor debris.
+We split processing between a PC (vision & trajectory calculation) and the Arduino (motor actuation & PID loop).  
+
+1. **Feedback Control Loop**  
+   - PC captures webcam frames, extracts ball color coordinates, corrects lens distortion, and converts pixels → millimeters.  
+   - Predicted impact point is sent via serial to Arduino.  
+   - Arduino runs a PID loop to move the paddle to the target coordinates.
+     
 <figure>
   <img src="{{ '/assets/abc.png' | relative_url }}" alt="Feedback Control" />
   <figcaption>Feedback Control</figcaption>
 </figure>
+
+2. **Trajectory Prediction**  
+   - Two-point linear extrapolation estimates where the ball will intersect the paddle plane.  
+   - Calculation performed in MATLAB at ~30 Hz, ensuring real-time responsiveness. 
   <figure>
   <img src="{{ '/assets/cde.png' | relative_url }}" alt="Ball Trajectory Tracking" />
   <figcaption>Ball Trajectory Tracking</figcaption>
 </figure>
+2. **Mathematical Equation**  
+   - Below is the mathematical equation for the program.  
   <figure>
   <img src="{{ '/assets/wasd.png' | relative_url }}" alt="Mathematical Equation" />
   <figcaption>Mathematical Equation</figcaption>
 </figure>
-
-<hr/>
-
-## Results  
-
-<figure>
-  <img src="{{ '/assets/Picture13.jpg' | relative_url }}" alt="Ping Pong Robot" />
-  <figcaption>Ping Pong Robot</figcaption>
-</figure>
-
-<hr/>
-
-## Final Outcomes  
-- **Objective 1:** Identified key hazards of unguarded milling machines.  
-- **Objective 2:** Created a cover that does not interfere with machine operation.  
-- **Objective 3:** Demonstrated chip containment and reduced floor debris.
 
 <hr/>
 
@@ -118,18 +125,26 @@ Tested cover’s ability to block chips, maintain machine function, and reduce f
   <source src="{{ '/assets/Media2.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+## Results  
+In live tests, the robot tracked and returned balls tossed successfully
+<figure>
+  <img src="{{ '/assets/Picture13.jpg' | relative_url }}" alt="Ping Pong Robot" />
+  <figcaption>Ping Pong Robot</figcaption>
+</figure>
 
 <hr/>
 
 ## Conclusions  
-- Safety cover meets design goals: effective protection, ease of use, minimal interference.  
-- Reinforced the importance of guarding in reducing machinery‐related injuries.
+- **Mechanical design** (belt & rack) provided robust, repeatable motion.  
+- **Electronic prototyping** on perf board allowed quick iterations.  
+- **Hybrid control** (PC + Arduino) achieved real-time performance suitable for casual play
 
 <hr/>
 
-## Future Plans  
-- Improve base durability and add mechanisms for easy opening/closing.  
-- Integrate additional features: lighting, chip disposal, coolant spray.
+## Future Work  
+- **Modularize** mechanical assemblies for faster build times.  
+- **Offload** trajectory computation to embedded processors to remove PC dependency.  
+- **Design** a custom PCB to replace universal perf-board for production readiness.
 
 <hr/>
 
