@@ -40,17 +40,6 @@ From the course brief, our deliverables were:
    
 <hr/>
 
-## Materials & Mechanics  
-- **Vertical Movement:** GT2 timing belt  
-  - Precise position control  
-  - High-speed rally compatibility  
-  - Durable under continuous operation  
-- **Horizontal Movement:** Rack & pinion  
-  - Accurate linear positioning  
-  - High rigidity and durability  
-
-<hr/>
-
 ## Design  
 
 **Initial vs. Final Build**  
