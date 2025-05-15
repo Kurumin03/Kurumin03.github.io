@@ -19,7 +19,7 @@ Modern robotic manipulators must navigate complex workspaces while respecting jo
 ## Project Background  
 Traditional IK solvers compute a single joint configuration for a given end-effector pose, but generating an entire trajectory (a sequence of poses) introduces new challenges:  
 - **Redundancy:** multiple joint solutions exist at each step, leading to discontinuous jumps if naively chained.  
-- **Joint limits & workspace constraints:** physical link lengths and angle bounds carve out a non-convex reachable region.  
+- **Joint limits & workspace constraints:** physical link lengths and angle bounds carve out a non-convex reachable region. 
 - **Manipulability:** some configurations offer better force/velocity transmission, reducing singularity risks.  
 
 To address these, we implemented a grid-based A* search over discretized joint angles, enriched with manipulability ellipsoid volume as a tie-breaker. This allowed us to plan full trajectories that smoothly guide the arm from start to goal while maximizing dexterity.
@@ -39,36 +39,6 @@ We define joint angles as:
 - **θ₁ (Yaw):** rotation about base Z-axis in the X–Y plane  
 - **θ₂ (Pitch 1):** elevation of link 2 relative to link 1 endpoint  
 - **θ₃ (Pitch 2):** elevation of link 3 relative to link 2 endpoint 
-
-## Introduction  
-Milling removes material via rotary cutters—used for grooving, boring, drilling, etc.  
-Without proper guarding, operators risk injuries from flying chips or entanglement.
-
-<hr/>
-
-## Project Background  
-- Between 1992–2010, machinery accidents caused 14,625 deaths (avg. 770/year).  
-- Many conventional milling machines lack safety covers, exposing operators to hazards.
-
-<figure>
-  <img src="{{ '/assets/Picture8.png' | relative_url }}" alt="Mobile and stationary machine accidents" />
-  <figcaption>Figure: Accident statistics for mobile vs. stationary machinery</figcaption>
-</figure>
-
-<hr/>
-
-## Problem Statement  
-- **Sharp metal chips** can fly off and injure the operator.  
-- **No barrier** separates the operator from the rotating blade.  
-- **Lack of maintenance** increases risk over time.
-
-<hr/>
-
-## Objectives  
-1. **Identify & analyze** hazards of horizontal milling machines.  
-2. **Design** a durable, easy‐to‐install safety cover that does not impede operation.  
-3. **Evaluate** cover effectiveness through testing and simulation.  
-4. **Promote** safety cover use as best practice in industry.
 
 <hr/>
 
