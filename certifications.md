@@ -9,7 +9,6 @@ permalink: /certifications/
 # Certifications & Courses  
 - **JLPT N1** (Japanese Proficiency) 
 - **Fundamental Information Technology Engineer** (FE)  
-- **AWS Certified Cloud Practitioner**  
 - **TOEIC:** 965  
 
 <footer class="project-footer">
