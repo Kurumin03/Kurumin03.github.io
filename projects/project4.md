@@ -1,7 +1,7 @@
 ---
 layout: panel
 title: Automated Docking Approach Phase for UR5e Robot using YOLOv8
-permalink: /projects/project3/
+permalink: /projects/project4/
 ---
 
 {% include return.html %}
