@@ -77,7 +77,6 @@ In our lab the docking robot (Hyblock) currently **requires manual docking** —
 <hr/>
 
 ## Codebase — files & responsibilities  
-(Visitors can quickly understand what each node does.)
 
 - **`perception/`** — YOLOv8 dataset, training scripts, inference node that publishes detections (and optionally writes CSV).  
 - **`csv_watcher.py` / `auto_move_from_csv.py`** — Watch CSV and publish `PoseStamped` to `/ur5e_move_goal`. Uses transient_local QoS so late subscribers receive the last message.  
@@ -90,13 +89,13 @@ In our lab the docking robot (Hyblock) currently **requires manual docking** —
 
 <hr/>
 
-## Experiment Study (simulation)  
+## Experiment Study (simulation)
 - Performed repeated approach trials across varied docking poses in Gazebo + MoveIt.  
 - Measured IK success rate, approach repeatability and detection robustness under different orientations/lighting (simulation photometric variations).
 
 <hr/>
 
-## Results (visuals)
+## Results
 
 <figure>
   <img src="{{ '/assets/Picture9.png' | relative_url }}" alt="Detection and approach visualization (simulation)" />
@@ -110,7 +109,7 @@ In our lab the docking robot (Hyblock) currently **requires manual docking** —
 
 <hr/>
 
-## Demo Video  
+## Demo Video(SIMULATION) 
 <video controls style="max-width:100%;margin:1rem 0;">
   <source src="{{ '/assets/Media1.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
