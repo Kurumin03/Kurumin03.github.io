@@ -114,5 +114,5 @@ Tested cover’s ability to block chips, maintain machine function, and reduce f
 
 <footer class="project-footer">
   <a href="/projects/project2/" class="btn btn-prev">← Previous</a>
-  <a href="/"                   class="btn btn-home">Home</a>
+  <a href="/projects/project4/" class="btn btn-prev">← Next</a>
 </footer>
