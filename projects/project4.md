@@ -98,8 +98,8 @@ In our lab the docking robot (Hyblock) currently **requires manual docking** —
 ## Results
 
 <figure>
-  <img src="{{ '/assets/Picture9.png' | relative_url }}" alt="Detection and approach visualization (simulation)" />
-  <figcaption>Simulation screenshot: detected docking module and planned approach</figcaption>
+  <img src="{{ '/assets/Screenshot 2025-12-18 182505.png' | relative_url }}" alt="Detection and approach visualization (simulation)" />
+  <figcaption>obstacle spawner</figcaption>
 </figure>
 
 <figure>
