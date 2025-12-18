@@ -103,8 +103,8 @@ In our lab the docking robot (Hyblock) currently **requires manual docking** —
 </figure>
 
 <figure>
-  <img src="{{ '/assets/Picture3.jpg' | relative_url }}" alt="3D view: UR5e and docking fixture" />
-  <figcaption>Gazebo / MoveIt 3D view during approach</figcaption>
+  <img src="{{ 'assets/Screenshot 2025-12-18 182400.png' | relative_url }}" alt="3D view: UR5e and docking fixture" />
+  <figcaption>yolo training result</figcaption>
 </figure>
 
 <hr/>
