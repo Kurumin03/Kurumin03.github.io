@@ -111,7 +111,7 @@ In our lab the docking robot (Hyblock) currently **requires manual docking** —
 
 ## Demo Video(SIMULATION) 
 <video controls style="max-width:100%;margin:1rem 0;">
-  <source src="{{ '/assets/Media1.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ 'assets/UR5e_Target_Approach_01 (1) (online-video-cutter.com).mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
