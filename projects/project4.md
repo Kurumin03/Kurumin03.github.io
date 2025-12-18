@@ -40,7 +40,7 @@ In our lab the docking robot (Hyblock) currently **requires manual docking** —
 - **Safety:** retries, timeouts, logging and conservative approach distances prevent unsafe motions.
 
 <figure>
-  <img src="{{ '/assets/Picture8.png' | relative_url }}" alt="System overview: camera → detection → transform → IK → controller" />
+  <img src="{{ 'assets/Mermaid Chart - Create complex, visual diagrams with text.-2025-10-28-003639.png' | relative_url }}" alt="System overview: camera → detection → transform → IK → controller" />
   <figcaption>Figure: High-level system architecture (perception → transform → IK → execution)</figcaption>
 </figure>
 
