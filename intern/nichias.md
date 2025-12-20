@@ -64,7 +64,7 @@ permalink: /intern/nichias/
 </section>
 
 <section class="project">
-  <h2>Key Safety Improvement Project</h2>
+  <h2>Safety Improvement Project</h2>
   <p>
     During my internship at a production facility, I responded to a safety incident
     in which the glass of a gas meter exploded and injured an operator. Drawing on my
