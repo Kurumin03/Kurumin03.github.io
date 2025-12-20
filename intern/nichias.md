@@ -64,17 +64,24 @@ permalink: /intern/nichias/
 </section>
 
 <section class="project">
-  <h2>Project</h2>
+  <h2>Key Safety Improvement Project</h2>
   <p>
-   During an internship at a production facility I responded to a safety incident 
-   where the glass on a gas meter exploded and an operator was injured.Drawing on
-   my final year project at UniKL where I designed a compact, easy to remove safety cover
-   for a milling machine. I proposed a similar engineered guard for the gas meters. 
-   I presented my research data, a prototype design, and a simple implementation plan 
-   to the maintenance and safety teams. Working with technicians we produced a pilot safety cover,
-   updated the work procedure, and trained operators. The pilot prevented recurrence of the same
-   installation hazard in the test area and was adopted more widely.The project taught me how 
-   practical engineering controls, backed by evidence and operator engagement, make workplaces measurably safer.
+    During my internship at a production facility, I responded to a safety incident
+    in which the glass of a gas meter exploded and injured an operator. Drawing on my
+    final-year project at UniKL—where I designed a compact, easy-to-remove safety cover
+    for a milling machine—I proposed a similar engineered guard for the gas meters.
+  </p>
+  <p>
+    I presented supporting research data, a prototype design, and a practical
+    implementation plan to the maintenance and HSSE teams. Working closely with
+    technicians, we developed a pilot safety cover, updated the work procedures,
+    and trained operators on its proper use.
+  </p>
+  <p>
+    The solution prevented recurrence of the same installation hazard in the test
+    area and was later adopted more widely. This project reinforced my belief that
+    effective engineering controls, supported by data and operator engagement, are
+    key to building sustainable and safe industrial operations.
   </p>
 </section>
 
