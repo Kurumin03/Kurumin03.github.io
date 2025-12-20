@@ -228,7 +228,7 @@ body {
 }
 .company-overview,
 .intern-activities,
-.project
+.project,
 .intern-summary {
   max-width: 700px;
   margin: 2rem auto;
